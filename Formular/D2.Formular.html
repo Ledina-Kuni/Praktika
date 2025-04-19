@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title> Formular </title>
+        <link rel="stylesheet" href="Formular.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+<body>
+    <div class="container">
+    <div class="form-box">
+    <form id="registerForm">
+        <h2>Regjistrohu</h2>
+        <div class="input-box">
+            <i class='bx bxs-user'></i>
+         <input type="text" id="name" placeholder="Emri"  />
+         <span id="error-name" class="error"></span>
+        </div>
+
+        <div class="input-box">
+            <i class='bx bxs-envelope'></i>
+         <input type="email" id="email" placeholder="Email" />
+         <span id="error-email" class="error"></span>
+        </div>
+
+        <div class="input-box">
+            <i class='bx bxs-lock-alt'></i>
+         <input type="password" id="password" placeholder="Fjalekalimi"  />
+         <span id="error-password" class="error"></span>
+        </div>
+
+        <div class="input-box">
+            <i class='bx bxs-user'></i>
+         <input type="password" id="confirmPassword" placeholder="Konfirmo Fjalekalimin"  />
+         <span id="error-confirm" class="error"></span>
+        </div>
+        <button class="button" type="submit" value="Register">Regjistrohu</button>
+    </form>
+    </div>
+    </div>
+    <script src="Formular.js"></script>
+</body>
+</html>
